@@ -1,0 +1,51 @@
+{
+    "Model": "gemini-3.5-flash-lite",
+    "Date": "2026-11-13 09:44",
+    "Number of cases": 37,
+    "Number of correct actions": 36,
+    "Number of fully correct cases": 35,
+    "Number of non-null fields": 139,
+    "Number of correct non-null fields": 135,
+    "False positives (expected None, but got value)": 0,
+    "Action accuracy": "97.30%",
+    "Case accuracy (all fields correct)": "94.59%",
+    "Field accuracy (non-null fields)": "97.12%",
+    "Failures": [
+        {
+            "id": "c12",
+            "message": "RoyalSpin GEO CA CPA 90 USD. Wager 1 EUR. Mindep 10 EUR.",
+            "mismatches": [
+                {
+                    "field": "mindep",
+                    "expected": "10 EUR",
+                    "got": "10 USD",
+                    "reason": "different values!"
+                }
+            ]
+        },
+        {
+            "id": "c27",
+            "message": "Casino Delta | NO | CPA 110 USD | Source: Snapchat",
+            "mismatches": [
+                {
+                    "field": "name",
+                    "expected": "Casino Delta",
+                    "got": null,
+                    "reason": "action is wrong!"
+                },
+                {
+                    "field": "geo",
+                    "expected": "NO",
+                    "got": null,
+                    "reason": "action is wrong!"
+                },
+                {
+                    "field": "cpa",
+                    "expected": "110 USD",
+                    "got": null,
+                    "reason": "action is wrong!"
+                }
+            ]
+        }
+    ]
+}

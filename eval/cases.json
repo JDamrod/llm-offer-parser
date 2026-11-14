@@ -1,0 +1,680 @@
+[
+  {
+    "id": "c01",
+    "message": "Luna Casino. GEO: IT. CPA: $120. Source: SEO.",
+    "expected": {
+      "action": "new_offer",
+      "name": "Luna Casino",
+      "geo": "IT",
+      "cpa": "120 USD",
+      "source": "SEO",
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c02",
+    "message": "Brand NovaBet for Spain traffic. CPA 250 EUR. Min deposit 30 EUR. Cap 50 FTD.",
+    "expected": {
+      "action": "new_offer",
+      "name": "NovaBet",
+      "geo": "ES",
+      "cpa": "250 EUR",
+      "source": null,
+      "mindep": "30 EUR",
+      "cap": "50",
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c03",
+    "message": "Rocket Casino - DE - CPA 100 USD - Baseline 40 EUR - Wager x5",
+    "expected": {
+      "action": "new_offer",
+      "name": "Rocket Casino",
+      "geo": "DE",
+      "cpa": "100 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": "40 EUR",
+      "wager": "x5",
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c04",
+    "message": "FastWin BR CPA €80. Click2Reg 35%. Reg2Dep 20%. Platform Soft2Bet.",
+    "expected": {
+      "action": "new_offer",
+      "name": "FastWin",
+      "geo": "BR",
+      "cpa": "80 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": "35",
+      "r2d": "20",
+      "platform": "Soft2Bet",
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c05",
+    "message": "Casino Alpha GEO UK CPA 150 USD Source Facebook Approach slot",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Alpha",
+      "geo": "UK",
+      "cpa": "150 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c06",
+    "message": "MegaSpin Portugal CPA 90 EUR. Source: UAC. KPI: Average deposit >= 40 EUR.",
+    "expected": {
+      "action": "new_offer",
+      "name": "MegaSpin",
+      "geo": "PT",
+      "cpa": "90 EUR",
+      "source": "UAC",
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": "Average deposit >= 40 EUR",
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c07",
+    "message": "New offer: LuckyStar. GEO FR. CPA 110 EUR. New payment solution available. Platform Custom.",
+    "expected": {
+      "action": "new_offer",
+      "name": "LuckyStar",
+      "geo": "FR",
+      "cpa": "110 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": "Custom",
+      "approach": null,
+      "comment": "New payment solution available"
+    }
+  },
+  {
+    "id": "c08",
+    "message": "OceanBet. GEO: IT, ES. CPA: 200 EUR. Source: In-App. Approach: cross.",
+    "expected": {
+      "action": "new_offer",
+      "name": "OceanBet",
+      "geo": "IT, ES",
+      "cpa": "200 EUR",
+      "source": "In-App",
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": "cross",
+      "comment": null
+    }
+  },
+  {
+    "id": "c09",
+    "message": "SilverBet MY CPA USD 30 (BL USD 5)",
+    "expected": {
+      "action": "new_offer",
+      "name": "SilverBet",
+      "geo": "MY",
+      "cpa": "30 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": "5 USD",
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c10",
+    "message": "BK88 Casino MY CPA: USD 30 with BL USD5",
+    "expected": {
+      "action": "new_offer",
+      "name": "BK88 Casino",
+      "geo": "MY",
+      "cpa": "30 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": "5 USD",
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c11",
+    "message": "Nova Casino NL CPA 175 EUR. Dep2Spend 50%. No rollover traffic after stop.",
+    "expected": {
+      "action": "new_offer",
+      "name": "Nova Casino",
+      "geo": "NL",
+      "cpa": "175 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": "Dep2Spend 50%",
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": "No rollover traffic after stop"
+    }
+  },
+  {
+    "id": "c12",
+    "message": "RoyalSpin GEO CA CPA 90 USD. Wager 1 EUR. Mindep 10 EUR.",
+    "expected": {
+      "action": "new_offer",
+      "name": "RoyalSpin",
+      "geo": "CA",
+      "cpa": "90 USD",
+      "source": null,
+      "mindep": "10 EUR",
+      "cap": null,
+      "baseline": null,
+      "wager": "1 EUR",
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c13",
+    "message": "Brand: LuckyPlay | GEO: Sweden | CPA: 300€ | Source: TTads | Cap: 100 FTD",
+    "expected": {
+      "action": "new_offer",
+      "name": "LuckyPlay",
+      "geo": "SE",
+      "cpa": "300 EUR",
+      "source": "TTads",
+      "mindep": null,
+      "cap": "100",
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c14",
+    "message": "SpinWorld AU CPA 50 USD. License Malta. New GEO launch.",
+    "expected": {
+      "action": "new_offer",
+      "name": "SpinWorld",
+      "geo": "AU",
+      "cpa": "50 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": "License Malta. New GEO launch"
+    }
+  },
+  {
+    "id": "c15",
+    "message": "Royal Casino | IT | CPA 140 EUR | Min dep 25 EUR | FTD cap 20 | ASO",
+    "expected": {
+      "action": "new_offer",
+      "name": "Royal Casino",
+      "geo": "IT",
+      "cpa": "140 EUR",
+      "source": "ASO",
+      "mindep": "25 EUR",
+      "cap": "20",
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c16",
+    "message": "GalaxyBet, MX, CPA $75. New brand. Payout starts from 10 FTDs.",
+    "expected": {
+      "action": "new_offer",
+      "name": "GalaxyBet",
+      "geo": "MX",
+      "cpa": "75 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": "New brand. Payout starts from 10 FTDs"
+    }
+  },
+  {
+    "id": "c17",
+    "message": "Casino Zeta GEO: PL CPA 100 EUR. Invalid traffic, fraud, duplicates and bots are not paid.",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Zeta",
+      "geo": "PL",
+      "cpa": "100 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c18",
+    "message": "FastBet: ES CPA 180 EUR. Reg2Dep 25%. I2R 10%. Approach crash.",
+    "expected": {
+      "action": "new_offer",
+      "name": "FastBet",
+      "geo": "ES",
+      "cpa": "180 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": "10",
+      "r2d": "25",
+      "platform": null,
+      "approach": "crash",
+      "comment": null
+    }
+  },
+  {
+    "id": "c19",
+    "message": "Offer: Lemon. GEO IT. CPA 100 USD. Wagering requirement x10. Baseline 50 USD.",
+    "expected": {
+      "action": "new_offer",
+      "name": "Lemon",
+      "geo": "IT",
+      "cpa": "100 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": "50 USD",
+      "wager": "x10",
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c20",
+    "message": "Casino Nova FR CPA 130 EUR. Platform: EveryMatrix. Source: PPC. Traffic after stop is not paid.",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Nova",
+      "geo": "FR",
+      "cpa": "130 EUR",
+      "source": "PPC",
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": "EveryMatrix",
+      "approach": null,
+      "comment": "Traffic after stop is not paid"
+    }
+  },
+  {
+    "id": "c21",
+    "message": "Lemon Casino CPA 200 EUR GEO IT GEO ES",
+    "expected": {
+      "action": "new_offer",
+      "name": "Lemon Casino",
+      "geo": "IT, ES",
+      "cpa": "200 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c22",
+    "message": "🔥 NEW OFFER 🔥\nBrand: Vegas Moon\nGEO: United Kingdom\nCPA: £90\nMindep: £10\nBaseline: £30\nWagering: x3\nSource: PPC\n\nNOT PAID:\n- Invalid traffic\n- Duplicates\n- Bots\n- Incentivized traffic",
+    "expected": {
+      "action": "new_offer",
+      "name": "Vegas Moon",
+      "geo": "UK",
+      "cpa": "90 GBP",
+      "source": "PPC",
+      "mindep": "10 GBP",
+      "cap": null,
+      "baseline": "30 GBP",
+      "wager": "x3",
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c23",
+    "message": "Zodiac Bet, PL, CPA 95 EUR, turnover x4, source: ppc, approach: Mix",
+    "expected": {
+      "action": "new_offer",
+      "name": "Zodiac Bet",
+      "geo": "PL",
+      "cpa": "95 EUR",
+      "source": "PPC",
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": "x4",
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": "mix",
+      "comment": null
+    }
+  },
+  {
+    "id": "c24",
+    "message": "Casino Pixel | ES | CPA 120 EUR | C2R 12.5% | R2D 18%",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Pixel",
+      "geo": "ES",
+      "cpa": "120 EUR",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": "12.5",
+      "r2d": "18",
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c25",
+    "message": "Mindep 10 EUR, Baseline 30 EUR: Casino Orbit, FI, CPA 85 EUR",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Orbit",
+      "geo": "FI",
+      "cpa": "85 EUR",
+      "source": null,
+      "mindep": "10 EUR",
+      "cap": null,
+      "baseline": "30 EUR",
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c26",
+    "message": "Casino Titan CH CPA 160 USD KPI: 30% Dep2Spend. No spillover traffic.",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Titan",
+      "geo": "CH",
+      "cpa": "160 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": "30% Dep2Spend",
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": "No spillover traffic"
+    }
+  },
+  {
+    "id": "c27",
+    "message": "Casino Delta | NO | CPA 110 USD | Source: Snapchat",
+    "expected": {
+      "action": "new_offer",
+      "name": "Casino Delta",
+      "geo": "NO",
+      "cpa": "110 USD",
+      "source": null,
+      "mindep": null,
+      "cap": null,
+      "baseline": null,
+      "wager": null,
+      "kpi": null,
+      "i2r": null,
+      "r2d": null,
+      "platform": null,
+      "approach": null,
+      "comment": null
+    }
+  },
+  {
+    "id": "c28",
+    "message": "Casino Green GEO IT. Mindep 20 EUR. Cap 30 FTD. Source PPC.",
+    "expected": {
+      "action": "need_more_information",
+      "available_information": {
+        "name": "Casino Green",
+        "geo": "IT",
+        "mindep": "20 EUR",
+        "cap": "30",
+        "source": "PPC"
+      },
+      "missing_fields": [
+        "cpa"
+      ]
+    }
+  },
+  {
+    "id": "c29",
+    "message": "CPA 70 USD for Germany traffic. Baseline 25 EUR.",
+    "expected": {
+      "action": "need_more_information",
+      "available_information": {
+        "geo": "DE",
+        "cpa": "70 USD",
+        "baseline": "25 EUR"
+      },
+      "missing_fields": [
+        "name"
+      ]
+    }
+  },
+  {
+    "id": "c30",
+    "message": "Casino X offers CPA 200 USD but GEO is not confirmed yet.",
+    "expected": {
+      "action": "need_more_information",
+      "available_information": {
+        "name": "Casino X",
+        "cpa": "200 USD"
+      },
+      "missing_fields": [
+        "geo"
+      ]
+    }
+  },
+  {
+    "id": "c31",
+    "message": "GEO IT. Source ASO. Platform SoftSwiss. CPA missing.",
+    "expected": {
+      "action": "need_more_information",
+      "available_information": {
+        "geo": "IT",
+        "source": "ASO",
+        "platform": "SoftSwiss"
+      },
+      "missing_fields": [
+        "name",
+        "cpa"
+      ]
+    }
+  },
+  {
+    "id": "c32",
+    "message": "BR traffic, CPA 100 USD, brand name will be shared later.",
+    "expected": {
+      "action": "need_more_information",
+      "available_information": {
+        "geo": "BR",
+        "cpa": "100 USD"
+      },
+      "missing_fields": [
+        "name"
+      ]
+    }
+  },
+  {
+    "id": "c33",
+    "message": "Can you send me your latest casino offers?",
+    "expected": {
+      "action": "not_new_offer"
+    }
+  },
+  {
+    "id": "c34",
+    "message": "I need help understanding CPA and CPL models.",
+    "expected": {
+      "action": "not_new_offer"
+    }
+  },
+  {
+    "id": "c35",
+    "message": "I played at Lemon Casino and received 100 USD bonus.",
+    "expected": {
+      "action": "not_new_offer"
+    }
+  },
+  {
+    "id": "c36",
+    "message": "Hey, do you know if Lemon Casino accepts players from Italy?",
+    "expected": {
+      "action": "not_new_offer"
+    }
+  },
+  {
+    "id": "c37",
+    "message": "ok thanks, talk later",
+    "expected": {
+      "action": "not_new_offer"
+    }
+  }
+]
